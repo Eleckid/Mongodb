@@ -1,0 +1,22 @@
+{
+  "name": "mongodb1",
+  "version": "1.0.0",
+  "description": "mongodb test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "startt": "pm2 kill && pm2 start index.js --watch && pm2 logs",
+    "kill": "pm2 kill"
+  },
+  "author": "Stephane",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.30.2",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2"
+  }
+}
